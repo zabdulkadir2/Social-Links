@@ -57,7 +57,7 @@ body{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 10%);
 }
-.links button .b:hover{
+.links button a:hover{
     color: black;
 }
 .attribution { 
