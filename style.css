@@ -9,10 +9,12 @@ body{
     justify-content: center;
     align-items: center;
     padding: 30px;
-   margin-top: 120px;
+   margin-top: 0;
+    min-height: 100%;
 }
 .card{
     width: 400px;
+    max-width: 100%;
     background-color:  hsl(0, 0%, 12%);
     padding: 25px;
     text-align: center;
@@ -37,9 +39,9 @@ body{
 .links button {
     display: block;
     margin-top: 20px;
-    width: 80%;
+    width: 100%;
     padding: 12px;
-    margin-left: 35px;
+    margin: 15px 0;
    background-color: hsl(0, 0%, 20%);
    border-radius: 10px;
    border: none;
@@ -71,4 +73,17 @@ body{
 }
 .attribution .b{
     color: white;
+}
+@media (max-width: 600px){
+    .card {
+        padding: 20px;
+    }
+
+    .card-content h2 {
+        font-size: 24px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
 }
